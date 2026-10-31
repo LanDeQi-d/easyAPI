@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="easy API平台">
+  <defs>
+    <linearGradient id="tile" x1="18" y1="18" x2="238" y2="238" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF5E9"/>
+      <stop offset="1" stop-color="#F4DFCE"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="240" height="240" rx="60" fill="url(#tile)"/>
+  <path d="M71 74c22-22 54-34 87-29 10 2 17 12 14 22-2 9-11 14-20 13-21-3-42 5-56 20-5 5-12 8-19 7-14-2-18-23-6-33Z" fill="#C66B50"/>
+  <path d="M182 72c22 15 36 39 39 65 1 11-7 20-17 21-10 1-18-6-20-15-2-15-10-29-22-38-7-5-11-13-8-21 4-13 17-18 28-12Z" fill="#A64B3B"/>
+  <path d="M189 173c-20 24-49 38-80 35-11-1-18-10-17-20 1-10 9-17 19-16 18 1 37-7 49-21 6-7 15-9 23-5 12 5 15 17 6 27Z" fill="#D48966"/>
+  <path d="M65 176c-21-18-31-45-28-72 1-10 10-18 20-17 10 1 17 10 16 20-2 16 4 32 15 43 6 6 8 15 4 22-6 12-18 14-27 4Z" fill="#E3A479"/>
+  <path d="M128 99l8 21 21 8-21 8-8 21-8-21-21-8 21-8 8-21Z" fill="#7D3D36"/>
+</svg>
