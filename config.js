@@ -1,4 +1,4 @@
 window.EASY_SITE = {
   "repository": "LanDeQi-d/easyAPI",
-  "releaseTag": "v2026.10.31-bilingual"
+  "releaseTag": "v2026.11.01"
 };

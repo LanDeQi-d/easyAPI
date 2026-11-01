@@ -1163,7 +1163,7 @@
   "认识 Otti ↗": "Meet Otti ↗",
   "选一个开始。": "Choose one to start.",
   "或者，一次拥有。": "Or get all three.",
-  "2026.10.31 · CN / EN · Windows x64": "Current release · 2026.10.31 · Video-reading update",
+  "2026.11.01 · CN / EN · Windows x64": "Current release · 2026.10.31 · Video-reading update",
   "仅支持 Windows 10 / 11，64 位。": "Windows 10 / 11, 64-bit only.",
   "三个应用 · 一个安装包": "Three apps · One installer",
   "easy 全家桶": "The easy suite",
@@ -1298,5 +1298,6 @@
   "下载按钮需要 JavaScript 读取仓库配置。请启用 JavaScript，或访问站长提供的 GitHub Releases 页面下载安装包。": "Downloads need JavaScript to read the repository configuration. Enable it or use the site's GitHub Releases page.",
   "返回顶部": "Back to top",
   "已复制，粘贴到桌面应用即可。": "Copied. Paste into the desktop app.",
-  "浏览器未允许直接复制，已选中文字，请按 Ctrl+C 或长按复制。": "Clipboard access was blocked. Text is selected; press Ctrl+C or long-press to copy."
+  "浏览器未允许直接复制，已选中文字，请按 Ctrl+C 或长按复制。": "Clipboard access was blocked. Text is selected; press Ctrl+C or long-press to copy.",
+  "本次更新：子智能体用量与数量设置、easy Code 关联 API、Otti 网站授权修复。": "This update: helper usage and count settings, linked API configuration in easy Code, and website permission fixes in Otti."
 }
