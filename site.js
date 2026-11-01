@@ -16,14 +16,14 @@
   const help = document.getElementById("download-help");
   for (const link of document.querySelectorAll("[data-asset]")) {
     if (base) {
-      link.href = `${base}/download/${encodeURIComponent(tag)}/${encodeURIComponent(link.dataset.asset)}`;
+      link.href = `${base}/download/${encodeURIComponent(link.dataset.release || tag)}/${encodeURIComponent(link.dataset.asset)}`;
     } else {
       link.addEventListener("click", () => { help.hidden = false; });
     }
   }
   const releaseLink = document.getElementById("release-link");
   if (release) {
-    releaseLink.href = release;
+    releaseLink.href = releaseLink.dataset?.release ? `${base}/tag/${encodeURIComponent(releaseLink.dataset?.release)}` : release;
     releaseLink.target = "_blank";
     releaseLink.rel = "noopener noreferrer";
   } else {
