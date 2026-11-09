@@ -22,11 +22,11 @@
     }
   }
   const releaseLink = document.getElementById("release-link");
-  if (release) {
+  if (release && releaseLink) {
     releaseLink.href = releaseLink.dataset?.release ? `${base}/tag/${encodeURIComponent(releaseLink.dataset?.release)}` : release;
     releaseLink.target = "_blank";
     releaseLink.rel = "noopener noreferrer";
-  } else {
+  } else if (releaseLink) {
     releaseLink.addEventListener("click", () => { help.hidden = false; });
   }
 })();
