@@ -41,3 +41,5 @@ h1{font-weight:650;letter-spacing:-2px;line-height:1.28}h2{font-weight:600;lette
 .extra-app-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.family-steps{padding-left:26px;max-width:860px}.family-steps li{padding:15px 0 20px 12px;border-bottom:1px solid var(--line)}.family-steps h3{font-weight:600}.family-steps p{line-height:1.9;color:var(--muted)}figure{margin:36px 0 0}figcaption{font-size:11px;line-height:1.8;color:var(--muted);margin-top:12px}.header nav{gap:18px}.app-card h3{overflow-wrap:anywhere}@media(max-width:740px){.extra-app-grid{grid-template-columns:1fr}.header{gap:12px}.header nav{gap:10px;font-size:11px}.header nav a:nth-child(n+4){display:none}.browser-page-hero h1{overflow-wrap:anywhere}}
 
 @media(min-width:1101px){.extra-app-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+
+.dev-screenshot{display:block;width:100%;height:auto;border-radius:14px;border:1px solid var(--line);margin:28px 0;box-shadow:0 18px 60px #0002}
