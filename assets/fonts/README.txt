@@ -1,0 +1,1 @@
+Source Serif 4 and Source Sans 3 by Adobe. SIL Open Font License 1.1. Latin variable subsets, weights 400–700. Chinese uses local Songti/SimSun and system sans-serif fallbacks. Fonts are self-hosted; no runtime font CDN is required. These are not Anthropic proprietary fonts.

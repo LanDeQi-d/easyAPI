@@ -1,0 +1,23 @@
+/* Editorial typography inspired by the serif/sans pairing on Claude's site.
+   Open fonts by Adobe; see assets/fonts/*-LICENSE.md. */
+@font-face{font-family:"Easy Editorial";src:url("assets/fonts/source-serif-4.woff2") format("woff2");font-style:normal;font-weight:400 700;font-display:swap}
+@font-face{font-family:"Easy Sans";src:url("assets/fonts/source-sans-3.woff2") format("woff2");font-style:normal;font-weight:400 700;font-display:swap}
+:root{
+ --font-body:"Easy Sans","PingFang SC","Microsoft YaHei UI","Microsoft YaHei",system-ui,sans-serif;
+ --font-heading:"Easy Editorial","Source Han Serif SC","Noto Serif CJK SC","Songti SC","STSong","SimSun",serif;
+ --font-interface:"Easy Sans","PingFang SC","Microsoft YaHei UI","Microsoft YaHei",system-ui,sans-serif;
+ --font-code:"Cascadia Code","SFMono-Regular",Consolas,"Liberation Mono",monospace;
+}
+body{font-family:var(--font-body);font-kerning:normal;line-height:1.75}
+h1,h2,.serif{font-family:var(--font-heading);font-weight:500;letter-spacing:-.025em;line-height:1.22;text-wrap:balance}
+html[lang^="zh"] h1,html[lang^="zh"] h2,html[lang^="zh"] .serif{letter-spacing:.015em;line-height:1.4;font-weight:500}
+h3,h4,.app-card h3,.guide-step h4,.guide-heading h3{font-family:var(--font-heading);font-weight:500;letter-spacing:-.015em;line-height:1.4}
+html[lang^="zh"] h3,html[lang^="zh"] h4{letter-spacing:.01em;line-height:1.55}
+.brand,.button,button,input,select,textarea,.header nav,.eyebrow,.pill,.card-top,.mode-id,.mode-tags,.guide-tab,.guide-step-nav,.download-list h3,.demo-window,.code-float,.floating-label{font-family:var(--font-interface)}
+.brand{font-weight:650;letter-spacing:-.025em}.eyebrow{font-weight:600;letter-spacing:.15em}
+p,li,dd{font-family:var(--font-body)}
+.lead,.hero-copy>p{font-weight:400;line-height:1.85}
+pre,code,kbd,samp{font-family:var(--font-code);font-variant-ligatures:none}
+.demo-window h1,.demo-window h2,.demo-window h3,.demo-window h4{font-family:var(--font-interface)}
+@media(max-width:760px){h1,h2{letter-spacing:-.018em}html[lang^="zh"] h1,html[lang^="zh"] h2{letter-spacing:.01em;line-height:1.4}}
+h1 .serif{display:inline-block;white-space:nowrap}html[lang="en"] h1 .serif{margin-inline-start:.12em}@media(max-width:760px){.hero h1{font-size:clamp(42px,12vw,56px)}}
